@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color_list_odd_rows</key>
+	<string>E1E7EF</string>
+	<key>color_list_even_rows</key>
+	<string>F0F0F0</string>
+	<key>icn_f_downloads</key>
+	<string>f_downloads.png</string>
+	<key>service_table_background</key>
+	<string>E1E7EF</string>
+	<key>current_path_text_color</key>
+	<string>000000</string>
+	<key>icn_f_favs</key>
+	<string>f_favs.png</string>
+	<key>icn_f_general</key>
+	<string>f_general.png</string>
+	<key>icn_f_links</key>
+	<string>f_links.png</string>
+	<key>icn_f_search</key>
+	<string>f_search.png</string>
+	<key>icn_f_trash</key>
+	<string>f_trash.png</string>
+	<key>icn_f_video</key>
+	<string>f_video.png</string>
+	<key>icn_video</key>
+	<string>video.png</string>
+	<key>icn_video_new</key>
+	<string>video_new.png</string>
+	<key>icn_guide_item</key>
+	<string>guide_item.png</string>
+	<key>icn_timer</key>
+	<string>timer.png</string>
+	<key>btn_facebook</key>
+	<string>facebook.png</string>
+	<key>btn_ical</key>
+	<string>ical.png</string>
+	<key>btn_add</key>
+	<string>add.png</string>
+	<key>btn_alert</key>
+	<string>alert.png</string>
+	<key>btn_delete</key>
+	<string>delete.png</string>
+	<key>btn_download</key>
+	<string>download.png</string>
+	<key>btn_edit</key>
+	<string>edit.png</string>
+	<key>btn_favs</key>
+	<string>favs.png</string>
+	<key>btn_play</key>
+	<string>play.png</string>
+	<key>btn_props</key>
+	<string>props.png</string>
+	<key>btn_reload</key>
+	<string>reload.png</string>
+	<key>btn_remove</key>
+	<string>remove.png</string>
+	<key>btn_search</key>
+	<string>search.png</string>
+	<key>theme_name</key>
+	<string>Default eViihde</string>
+	<key>logo_tickets</key>
+	<string>tickets.icns</string>
+	<key>icn_guide_item_inrec</key>
+	<string>guide_item_inrec.png</string>
+	<key>path_list_text_color_highlight</key>
+	<string>c0c0c0</string>
+	<key>path_list_text_color</key>
+	<string>060606</string>
+	<key>service_list_text_color_highlight</key>
+	<string>c0c0c0</string>
+	<key>service_list_text_color</key>
+	<string>060606</string>
+</dict>
+</plist>

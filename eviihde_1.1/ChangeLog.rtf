@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs20 \cf0 Changelog:\
+----------------------------------------------------------------------------------------------------------------------------------------\
+24.05.2011 : Bug/Feature Release 1.0.4 - "Suomi on sun"\
+ - Kirjautuminen toipumaan tilanteessa, jossa palvelin palauttaa kirjautumissa muuta kuin boolean arvon. Palvelinvirheiden tunnistus.\
+ - Palvelinvirheen tapahtuessa n\'e4ytet\'e4\'e4n palvelimen palauttama virhesivu.\
+ - Elisan palvelin palauttaa joissakin tilanteissa 302 REDIRECT tiedon, download-koodi korjattu seuraamaan t\'e4t\'e4.\
+ - Mahdollisuus poistaa automaattinen versiotarkistus k\'e4yt\'f6st\'e4\
+ - Versiotarkistus 60min v\'e4lein automaattisesti, jos tarkistus on kytkettyn\'e4 p\'e4\'e4lle\
+ - Mahdollisuus ohittaa tarjottu versio, jolloin eViihde ei en\'e4\'e4 tarjoa kyseist\'e4 versiota automaattisesti.\
+  \
+----------------------------------------------------------------------------------------------------------------------------------------\
+11.05.2011 : Bug/Feature Release 1.0.3 - "A Question Of Honour"\
+ - Versiotarkistus siirretty tapahtuvaksi ennen kirjautumista\
+ - Versiotarkistus suoritetaan my\'f6s kirjautumisen yhteydess\'e4 (2x huomautus)\
+ - Versiotarkistuksen yhteydess\'e4 suoritetaan my\'f6s "sallittu k\'e4ytett\'e4v\'e4ksi" tarkistus, jolla voidaan est\'e4\'e4 tarpeen tullen virheellisten \
+   versioiden k\'e4ytt\'f6 turvallisuussyist\'e4.\
+ - Kirjautumisruudussa poistetaan mahdollisuus poistaa "muista tunnus" valinta, kun automaattikirjautuminen valitaan.\
+ - Sopeutuminen elisaviihde.fi -> api.elisaviihde.fi muutokseen. Kirjautuminen ja datan k\'e4sittely toistaiseksi salaamatonta.\
+ \
+----------------------------------------------------------------------------------------------------------------------------------------\
+11.02.2011 : Bug Fix Release 1.0.2 - "Take a Chance On Me"\
+ - P\'e4\'e4ruudun init() uudistettu, osana roskakorin tunnistusrutiinia.\
+ - Roskakori poiskytkett\'e4viss\'e4.\
+ - Roskakorin automaattinen luonti kytkett\'e4v\'e4 erikseen p\'e4\'e4lle asetuksista.\
+ - Roskakorin l\'f6ytymist\'e4 tarkistettu.\
+ - Statusruudun toimintaa parannettu, p\'e4ivittyy nyt tapahtumien mukaisesti. Helpottaa ohjelman latausvaiheen seuraamista, poistaen "jumitus"-efektin.\
+ \
+06.02.2011 : Bug Fix Release 1.0.1 - "Amigo"\
+ - Roskakorin haku ja tunnistusrutiineja uudistettu, useiden luomisen v\'e4ltt\'e4miseksi\
+ - Usean roskakorin l\'f6ytyess\'e4, ehdottaa k\'e4ynnistyksess\'e4 niiden poistoa.\
+ - Tallenteiden p\'e4\'e4tasolla n\'e4ytet\'e4\'e4n kaikki ei aktiiviset eviihde.trash kansiot merkinn\'e4ll\'e4 "(ylim\'e4\'e4r\'e4inen)"\
+\
+01.02.2011 : Release 1.0.0  - "We Rule The Night"\
+ - Roskakori-toiminne. Elisa Viihde palveluun luodaan "Roskakori" kansio. \
+ - Automaattinen roskakorin tyhjennys, kun tallenteen esitysajasta on kulunut 1vko ja tallenne on roskakorissa, se poistetaan ohjelman sulkemisen yhteydess\'e4.\
+ - Tallenteiden katsottu tietoa yll\'e4pidet\'e4\'e4n paikallisesti, sek\'e4 elisaviihteen palvelimien palauttamien tietojen perusteella. M\'e4\'e4ritett\'e4viss\'e4 asetuksista, ett\'e4 k\'e4ytet\'e4\'e4nk\'f6 Elisa Viihteen tietoja.\
+ - "Uusimmat Tallenteet" ruutu, jossa n\'e4ytet\'e4\'e4n 20 viimeisint\'e4 valmista tallennusta. Asetettavissa, ett\'e4 n\'e4ytt\'e4\'e4 joko 20 uusinta tai 20 uusinta katsomatonta. \
+ - Ulkoasun uudistus, sis\'e4lt\'e4en teematuen.\
+ - Facebook tuki; Tapahtuma ja statusp\'e4ivitykset.\
+ - Haku; tallenteiden ja tulevien ohjelmien haku. Ohjelmakarttahaku voidaan kytke\'e4 pois asetuksista.\
+ - Saunavisio tuki, osa uusista ominaisuuksista eiv\'e4t toimi SaunaVision palvelimilla.\
+ - Paljon asetusmuutoksia\
+ - Tallenteen lataaminen omalle koneelle k\'e4ytt\'e4\'e4 sis\'e4ist\'e4 rutiinia ja sis\'e4lt\'e4\'e4 nopeusrajoituksen.\
+ - Logij\'e4rjestelm\'e4\'e4 uudistettu\
+ - Mini-inforuutu ikkunan vasemmassa alanurkassa. Kytkett\'e4viss\'e4 pois asetuksista.\
+ - Koodipohjan liki t\'e4ysi uudelleenkirjoittaminen 0.7.0 versiosta.\
+ \
+Licensing:\
+ - Osa ominaisuuksista vain rekister\'f6ityneille k\'e4ytt\'e4jille.\
+ 	( skriptaus, lataaminen, uusimmat tallenteet n\'e4kym\'e4, roskakori, facebook integraatio )\
+ - Lisenssiavain koostuu UUID-avaimesta, koneen MAC osoitteesta (en0), k\'e4ytt\'e4j\'e4tunnuksen HASH tiedosta ja s\'e4hk\'f6posti-osoitteesta \
+\
+----------------------------------------------------------------------------------------------------------------------------------------\
+xx.xx.xxxx : Pre-Release ?.?.? - "Working On a Dream"\
+\
+xx.xx.xxxx : Pre-Release ?.?.? - "Suomi on sun"\
+\
+xx.xx.xxxx : Pre-Release ?.?.? - "Wind Of Change" ::: (Scorpions)\
+\
+xx.xx.xxxx : Pre-Release 0.9.2 - "I Wanna Hear Your Heartbeat"\
+\
+xx.xx.xxxx : Beta-Release 0.9.l - "E.V.V.K"\
+\
+01.02.2011 : Pre-Release 0.9.j - "Miljoonan Kilsan Tennarit" (not released, 1.0.0 build environment)\
+ - iPlayer versio k\'e4\'e4nnet\'e4\'e4b Intel 32/64bit Leopard alustalle.\
+ - Logitusta uudistettu. Log ruutu ja error inforuutu uudistettu.\
+ - Tallenteen osoitteen kopiointi siirretty k\'e4ytt\'e4m\'e4\'e4n cmd+c sijasta shift+cmd+c yhdistelm\'e4\'e4.\
+ - Ty\'f6kalupalkin tooltip tekstit asetettu vaihtumaan valitun tilan, sek\'e4 valinnan mukaan.\
+ - Kansion luonti/poisto/nime\'e4minen p\'e4ivittyy heti tallennus- ja siirtoruutuun.\
+ - Tallenteita ladattaessa n\'e4ytet\'e4\'e4n kaksi nopeutta; viimeisen 1-2 sec nopeus ja koko tallenteen keskiarvo (avg: x.xxx MB/s)\
+ - Asetukset-ikkunan painike ja valintaj\'e4rjestyst\'e4 vaihdettu ja keskitetty.\
+ - Yleinen koodin l\'e4pikatselmointi ja k\'e4\'e4nt\'e4j\'e4n tuottamien varoitusten siivous.\
+ - Lis\'e4tty mahdollisuus tallentaa ajonaikainen logi tiedostoksi (HTML, ELOG /json, TXT, LOG)\
+ - Tallennusta luodessa, kun kytket\'e4\'e4n Jatkuva Tallennus: ohjelman nimen per\'e4\'e4n lis\'e4t\'e4\'e4n automaattisesti *-merkki.\
+ - Logiasetukset lis\'e4tty asetuksiin (on/off, taso, logitiedoston sijainti)\
+ - HTTP kirjaston uudelleen kirjoitus.\
+ - Versiotarkistukseen laajennuksia, palvelinp\'e4\'e4 ilmoittaa versiotietojen ohessa my\'f6s tuoreimman latausosoitteen ja changelog osoitteen.\
+ //- Uusi ikoni; http://cemagraphics.deviantart.com/art/Little-Tv-Icon-96461135\
+ - Uusi ikoni.\
+ - Dock-ikoniin lis\'e4t\'e4\'e4n punaisella kesken olevien latausten m\'e4\'e4r\'e4.\
+ - Katsottu tieto synkronoidaan elisaviihde.fi:n ja eViihteen v\'e4liss\'e4. Asetuksista valittavissa pois/p\'e4\'e4lle. P\'e4\'e4ll\'e4 ollessa "Merkitse katsomattomaksi" valikko ei ole k\'e4yt\'f6ss\'e4.\
+ - Ohjelmaoppaan kanavalistaa p\'e4ivitt\'e4ess\'e4 my\'f6s tallenne editorin kanavalista p\'e4ivitet\'e4\'e4n. (Harvoin tapahtuva tilanne, mutta huomioitava kuitenkin)\
+ - Automaattikirjautumisessa tapahtuva kirjautumisvirhe palauttaa kirjautumisruudun ja virheilmoituksen. Kirjautuminen oikealla salasanalla korjaa keychain tiedon ja suorittaa kirjautumisen.\
+ - Haku tallenteista ja ohjelmakartasta. Ohjelmakartalta haku kytkett\'e4viss\'e4 pois asetuksista.\
+ - Roskakorista poistetaan viikkoa vanhemmat tallenteet (alkuper\'e4inen esitysaika) ohjelmaa suljettaessa. Kytkett\'e4viss\'e4 pois asetuksista.\
+ - JSON Framework p\'e4ivitetty k\'e4ytt\'e4m\'e4\'e4n 2.3.1 versiota.\
+ - DropdownComboBox kontrolli muutettu IGResizableComboBox;iksi, mahdollistaen ComboBox:in venytt\'e4misen.\
+ - Lis\'e4tty/p\'e4ivitetty Copyright tietoja Info ruutuun.\
+ - Nopeusasetuksen ilmoittamaa nopeustietoa korjattu : MBps -> MB/s\
+ - Ohjelmakartassa ilmennyt vika korjattu. (urldecode puuttui)\
+ - K\'e4ynnistysj\'e4rjestyst\'e4 muutettu, toimivampi kokemus k\'e4ytt\'e4j\'e4lle.\
+ - Taustav\'e4rit konfiguroitavissa. Riviv\'e4rit ohjelmalistassa konfiguroitavissa.\
+ - Valikkoon lis\'e4tty pikavalinta Latauskansioon siirtymiseksi (CMD-G)\
+ - Virheenk\'e4sittely\'e4 korjattu. P\'e4\'e4luokassa kaikkialla try/catch/finaly rakenne.\
+ - Mini-Inforuutu vasempaan alakulmaan. Nuolin\'e4pp\'e4imill\'e4 selaamista parannettu. Mini-info poistettavissa k\'e4yt\'f6st\'e4 asetuksista.\
+ - Usean yht\'e4aikaisen tallenteen siirtoa ja poistoa nopeutettu.\
+ - Roskakorin tyhjennyksess\'e4 k\'e4ytett\'e4vien pyynt\'f6jen m\'e4\'e4r\'e4\'e4 v\'e4hennetty.\
+ \
+----------------------------------------------------------------------------------------------------------------------------------------\
+26.12.2010 : Beta-Release 0.9.i - "Renegade Master 98"\
+ - V\'e4lily\'f6nnill\'e4 avattava ja suljettava info-ikkuna\
+ - Tallennelistassa avaaminen ENTER napilla.\
+ - Ohjelmatietojen ikoni punaiseksi, jos tulevista tallenteista l\'f6ytyy kyseisen ohjelma (teemaan yksi ikonitieto lis\'e4\'e4)\
+ - Tallenteiden lataus ja osoitteen kopiointi korjattu Uudet tallenteet n\'e4kym\'e4ss\'e4\
+ - Korjaus tilanteeseen jossa virheellinen sanoma k\'e4ynnistyksen yhteydess\'e4 palauttaa HTML-dataa, JSON-datan sijasta - aiheutti useiden roskakorien luomisen ElisaViihde/SaunaVisio palvelimille.\
+ - Latausnopeuden rajoittaminen, rajoitus koko ohjelman k\'e4ytt\'e4m\'e4lle kaistalle. Eli: 1MBps raja, 4 latausta, 256KBps/lataus. 0.000 arvo rajana merkitsee "ei rajaa". Oletuksena 1MBps.\
+ - Asetustiedostot tarkistetaan k\'e4ynnistyksen yhteydess\'e4, ett\'e4 vastaavat ohjelmaversion asetustietoja. Jos ei, korjataan tiedosto uuden mukaiseksi.\
+ - UUID tieto s\'e4ilyy, kun ohjelman asetukset palautetaan Asetukset ikkunan kautta. (Ohjelman identiteetti)\
+ \
+----------------------------------------------------------------------------------------------------------------------------------------\
+28.11.2010 : Beta-Release 0.9.h - "Blue Savannah"\
+ - Merkitse katsotuksi latasi kaikki tiedot suoraan palvelimelta; korjattu lataamaan vain paikallisesta cachesta tiedot. Aiheutti hitautta Uudet Tallennteet n\'e4kym\'e4ss\'e4.\
+ - Tallennusnimen-asetukset ja ohjeet asetuksissa; ladattaville tallennuksille. Oletuksena: \{name\} (\{channel\} \{start_time\}-\{end_time\}).ts\
+ - Tallenteen muuttaminen katsotusta katsomattomaksi optio valikkoon (shift+cmd+k)\
+ - Versiotiedon haku muutettu k\'e4ytt\'e4m\'e4\'e4n www.eviihde.com palvelinta.\
+ \
+----------------------------------------------------------------------------------------------------------------------------------------\
+30.10.2010 : Beta-Release 0.9.g - "Ride the Tide"\
+ - Tallennuseditorin "jatkuva" checkbox j\'e4\'e4 pois p\'e4\'e4lt\'e4 jos muokataan jatkuvaa tallennetta, ei saa valittua en\'e4\'e4 uutta teht\'e4ess\'e4. (FIX)\
+ - Tallennettavan tallenteen p\'e4\'e4te mpeg -> ts. (FIX)\
+ - eViihde_iPlayer (64bit SL) : kokeiluversio, ei jakelussa (eri pyynn\'f6st\'e4 kokeiltavaksi, isokokoinen paketti; n. 90Mt vs normi n. 1Mt)\
+ - eViihde_iPlayer sis\'e4lt\'e4\'e4 sis\'e4isen VLCKit;iin pohjautuvan videotoistoj\'e4rjestelm\'e4n\
+ - Muissa versiossa VLC edelleen k\'e4yt\'f6ss\'e4.\
+ - VLC;n k\'e4ynnistyst\'e4 parannettu, v\'e4hemm\'e4n uudelleenavauksia\
+ - Katsottu ominaisuus, tallentaa paikalliseen tietokantaan kaikkien katsottujen ohjelmien ID:t\
+ - Tallenteissa ikonit; punainen=katsomaton, musta=katsottu\
+ - Uusimmat tallenteet toiminteessa hy\'f6dynnet\'e4\'e4n t\'e4t\'e4 tietoa siten, ett\'e4 vain katsomattomat n\'e4ytet\'e4\'e4n (60 uusinta katsomatonta)\
+ - Hakuruudussa hy\'f6dynnet\'e4\'e4n my\'f6s tietoa ohjelman tilasta (katsottu/ei)\
+ - Roskakorin tallenteet eiv\'e4t ilmesty uusimpien tallenteiden listalle, eik\'e4 tallennusta luodessa tarjota "eviihde.trash" kansiota tallennuskansioksi\
+ - Roskakorista palautus helpommaksi, valikkoon uusi valinta "Palauta" valikossa.\
+ - Tallenteiden siirto muutettu k\'e4ytt\'e4m\'e4\'e4n yksinkertaisempaa ratkaisua. Sama toiminnallisuus kuin roskista palautettaessa.\
+ - Teematuki; ikonit, ty\'f6kalupalkin painikkeet ja tikettilogo (login ruutu, about ruutu)\
+ - Esimerkkiteema l\'f6ytyy beta jakelusivulta\
+ - iCal kalenterin valinta\
+ - Kalenterimerkinn\'e4n h\'e4lytyksen aika asetettavissa, x minuuttia ennen ohjelman alkua.\
+ - Lis\'e4tty huomautus aukiolevista latauksista kun ohjelmaa suljetaan.\
+ - Projektin rakennetta siivottu ja turhia paloja poistettu - p\'e4\'e4osin vanhan version j\'e4\'e4nteit\'e4. (eViihde64; n. 1Mt)\
+ - Tulevia kertatallennuksia voi poistaa Tulevista tallenteista\
+ - Tulevia kertatallennuksia voi muokata ja muuttaa toistuviksi Tuleista tallenteista.\
+ - Facebook: linkit eViihde ja ElisaViihde (valikossa)\
+ - Facebook: valtuutus (eViihde GUI) + FB tuen poisto asetuksissa\
+ - Facebook: ohjelmainfo-linkin l\'e4hetys omalle profiilisivulle\
+ - Facebook: status tiedon p\'e4ivitys k\'e4ytt\'e4en valitun ohjelman tietoja\
+ - Facebook: tapahtuman luonti k\'e4ytt\'e4en valitun ohjelman tietoja\
+ - Roskakorin tyhjennys pikan\'e4pp\'e4imell\'e4 ja valikosta\
+ - HTTP palvelinpyynt\'f6jen virhetilanteeseen korjus. Tietyiss\'e4 yksitt\'e4isiss\'e4 virhetilanteessa jumittui t\'e4ysin.\
+ - Facebook: toimintopainike ohjelmainfo ruudussa\
+\
+--------------------------------------------------------------------------------------------------------------------------------------\
+13.10.2010 : Beta-Release 0.9.f - "You Are Not Alone"\
+ - Ty\'f6kalupalkin painikkeiden aktivoitumiseen/deaktivoitumiseen lis\'e4\'e4 logiikkaa\
+ - Bugikorjauksia ty\'f6kalupalkin koodeihin\
+ - ElisaViihteen uudistettu login menettely (11.10.2010)\
+ - Korjaus ohjelmainforuutuun, aiheutti jumiutumisen. \
+ \
+--------------------------------------------------------------------------------------------------------------------------------------\
+08.10.2010 : Beta-Release 0.9.e - "You Drive Me Crazy"\
+ - 60 uusinta tallennusta\
+ - ulkoasun toiminnallisuuden muutokset (ns. tarpeettomat napit harmaiksi)\
+ - sammuttamisvarmistus\
+ - sis\'e4inen latausj\'e4rjestem\'e4 mpeg tiedostoille\
+ - latauskansio asetettavissa asetuksista\
+ - iCal merkinn\'e4n lis\'e4\'e4minen ohjelmakartasta ja suosituista ohjelmista\
+ - kaikki lis\'e4\'e4/poista/muokkaa ajastus toiminteet toimii\
+	\
+--------------------------------------------------------------------------------------------------------------------------------------\
+03.10.2010 : Beta-Release 0.9.d - "Return Of The Mac"\
+ - Roskakori tuki\
+ - Paljon toiminteita lis\'e4tty vanhasta koodipohjasta; tallennusten hallinta ok, ajastusten ei.\
+ - Ulkoasumuutoksia, uudet painikkeet\
+ - Ty\'f6kalupalkki muokattavissa mieleiseksi\
+\
+--------------------------------------------------------------------------------------------------------------------------------------\
+18.9.2010 : Beta-Release 0.9.c - "Angels Night"\
+ - Saunavisio tuki; \
+   * tallenteiden lataamiseen oma versionsa hakurutiinista.\
+   * Hakukentt\'e4 poistuu k\'e4yt\'f6st\'e4 Saunavisio asetuksella, ei tukea.\
+ \
+--------------------------------------------------------------------------------------------------------------------------------------\
+17.9.2010 : Beta-Release 0.9.b - "Polka Dots And Moonbeams"\
+ - Suosikkien selaus ja info\
+ - Ainatallentuvien selaus\
+ - Ohjelmakartan selaus ja info\
+ - Tallennuksista haku\
+ 	\
+--------------------------------------------------------------------------------------------------------------------------------------\
+14.9.2010 : Beta-Release 0.9.a - "Long Time Ago" / Facelift Preview\
+ - tallenteiden kaselu, poisto ja info\
+ - tallennuskansioiden selaus}

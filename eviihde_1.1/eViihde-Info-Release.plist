@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBuildDate</key>
+	<string>Wed May  2 23:06:06 EEST 2012</string>
+	<key>CFBuildNumber</key>
+	<integer>1003</integer>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Finnish</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>tickets.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>nu.shacknet.dingle.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>eViihde</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0 "New Age"</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.entertainment</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>NSMainNibFile</key>
+	<string>eViihde_Master</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>appDownloadUrl</key>
+	<string>http://www.eviihde.com/eViihde_Revisited.zip</string>
+	<key>appUpdatePath</key>
+	<string>http://www.eviihde.com/version.php</string>
+</dict>
+</plist>
