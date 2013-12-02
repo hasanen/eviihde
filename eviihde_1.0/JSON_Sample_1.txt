@@ -1,0 +1,44 @@
+"ready_data":[
+{"folders": [
+{"id":"277360","name":"HIstoria","size":"11.49 GB"},
+{"id":"214756","name":"Hill%20Street%20Blues","size":"43.33 GB"},
+{"id":"277349","name":"Kotikatsomo","size":"11.78 GB"},
+{"id":"277355","name":"Kotimaiset%20elokuvat","size":"16.57 GB"},
+{"id":"221736","name":"Kylm%C3%A4verisesti%20Sinun","size":"17.15 GB"},
+{"id":"240964","name":"Lehm%C3%A4n%20vuosi","size":"11.69 GB"},
+{"id":"277357","name":"Musiikki","size":"12.80 GB"},
+{"id":"252109","name":"Putous","size":"20.41 GB"},
+{"id":"240063","name":"Simpsonit","size":"38.34 GB"},
+{"id":"277350","name":"Ulkomaiset%20elokuvat","size":"159.61 GB"},
+{"id":"277351","name":"Yle%20Teema","size":"27.72 GB"}
+], 
+
+"recordings": [
+{"id":"27558783","program_id":"439151", "folder_id":"","name":"Kino%20Into%3A%20T%C3%A4n%C3%A4%20y%C3%B6n%C3%A4%20valtaan%20ruumiisi%20(K15)","channel":"YLE Teema","start_time":"ti 06.07.2010 00:00"},
+{"id":"27452026","program_id":"438593", "folder_id":"","name":"Kino%20Klassikko%3A%20Valamiesten%20ratkaisu","channel":"YLE Teema","start_time":"su 04.07.2010 18:00"},
+{"id":"27320089","program_id":"437973", "folder_id":"","name":"Arkistojen%20salat%3A%20Marilyn%20Koreassa","channel":"YLE Teema","start_time":"pe 02.07.2010 21:00"},
+{"id":"27195484","program_id":"436875", "folder_id":"","name":"Kino%20Scifi%3A%20%22Se%22%20toisesta%20maailmasta","channel":"YLE Teema","start_time":"ke 30.06.2010 21:55"},
+{"id":"27169242","program_id":"436871", "folder_id":"","name":"Kino%20Bergman%3A%20Talven%20valoa%20(K13)","channel":"YLE Teema","start_time":"ke 30.06.2010 19:00"},
+{"id":"27111873","program_id":"436452", "folder_id":"","name":"Historia%3A%20Maailmansodan%20kurimuksessa%20(K13)","channel":"YLE Teema","start_time":"ti 29.06.2010 21:01"},
+{"id":"26915042","program_id":"435308", "folder_id":"","name":"Mansikkapaikka","channel":"YLE Teema","start_time":"la 26.06.2010 21:29"},
+{"id":"26761418","program_id":"434534", "folder_id":"","name":"Tiededokumentti%3A%20Vitsauksien%20paluu","channel":"YLE Teema","start_time":"to 24.06.2010 21:00"},
+{"id":"26714618","program_id":"434094", "folder_id":"","name":"Kino%20Scifi%3A%20Tulevia%20aikoja","channel":"YLE Teema","start_time":"ke 23.06.2010 21:55"},
+{"id":"26686708","program_id":"434091", "folder_id":"","name":"Kino%20Bergman%3A%20Kuin%20kuvastimessa%20(K13)","channel":"YLE Teema","start_time":"ke 23.06.2010 19:00"},
+{"id":"26673902","program_id":"434089", "folder_id":"","name":"Tiededokumentti%3A%20Kirurgian%20historia","channel":"YLE Teema","start_time":"ke 23.06.2010 16:55"},
+{"id":"26648396","program_id":"433888", "folder_id":"","name":"Tohtori%20Zivago","channel":"YLE Teema","start_time":"ti 22.06.2010 22:56"},
+{"id":"26589100","program_id":"433489", "folder_id":"","name":"Kino%20Into%3A%20Paholaisen%20selk%C3%A4ranka%20(K15)","channel":"YLE Teema","start_time":"ti 22.06.2010 00:05"},
+{"id":"26476562","program_id":"433021", "folder_id":"","name":"Kino%20Klassikko%3A%20Uusien%20t%C3%A4htien%20alla","channel":"YLE Teema","start_time":"su 20.06.2010 18:00"},
+{"id":"22896872","program_id":"416710", "folder_id":"","name":"%3A%20Jim%20Salabim%20Taikashow","channel":"YLE TV2","start_time":"pe 07.05.2010 18:05"},
+{"id":"22421968","program_id":"414308", "folder_id":"","name":"Biisik%C3%A4rp%C3%A4nen","channel":"MTV3","start_time":"la 01.05.2010 20:00"},
+{"id":"22184000","program_id":"413422", "folder_id":"","name":"Albumi","channel":"YLE FST5","start_time":"ke 28.04.2010 21:30"},
+{"id":"22180032","program_id":"413216", "folder_id":"","name":"Castle","channel":"Nelonen","start_time":"ke 28.04.2010 21:00"},
+{"id":"21613262","program_id":"410808", "folder_id":"","name":"Katu","channel":"YLE TV1","start_time":"ke 21.04.2010 22:56"},
+{"id":"21601101","program_id":"410679", "folder_id":"","name":"Maria!","channel":"Nelonen","start_time":"ke 21.04.2010 21:00"},
+{"id":"19872614","program_id":"403279", "folder_id":"","name":"FlashForward","channel":"Nelonen","start_time":"to 01.04.2010 21:00"},
+{"id":"19330036","program_id":"400675", "folder_id":"","name":"Ykk%C3%B6sen%20aamu-tv","channel":"YLE TV1","start_time":"pe 26.03.2010 06:24"},
+{"id":"18588017","program_id":"397275", "folder_id":"","name":"Comedy%20Inc.%20(K13)","channel":"YLE TV2","start_time":"ti 16.03.2010 23:50"},
+{"id":"18123634","program_id":"395353", "folder_id":"","name":"Derrick","channel":"YLE TV2","start_time":"to 11.03.2010 12:45"},
+{"id":"18034775","program_id":"394775", "folder_id":"","name":"Jalkapallon%20Mestareiden%20liiga","channel":"YLE TV2","start_time":"ti 09.03.2010 22:27"}
+]}
+
+]}
